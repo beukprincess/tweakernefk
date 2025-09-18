@@ -4,15 +4,15 @@ Write-Host "Запуск My Ultimate Windows Utility..." -ForegroundColor Green
 
 # Пример функций (добавь свои)
 function Show-Menu {
-    Write-Host "1. Очистка системы"
-    Write-Host "2. Установка софта"
-    Write-Host "3. Выход"
-    $choice = Read-Host "Выберите опцию"
+    Write-Host "1. Clean up system"
+    Write-Host "2. Install software"
+    Write-Host "3. Exit"
+    $choice = Read-Host "Select Option"
     switch ($choice) {
-        1 { Write-Host "Очистка запущена..." }
-        2 { Write-Host "Установка софта..." }
+        1 { Write-Host "Cleaning..." }
+        2 { Write-Host "Installing..." }
         3 { exit }
-        default { Write-Host "Неверный выбор!" }
+        default { Write-Host "Wrong!" }
     }
 }
 
