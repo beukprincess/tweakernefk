@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/win",
+      "destination": "/nefkutil.ps1"
+    }
+  ]
+}
